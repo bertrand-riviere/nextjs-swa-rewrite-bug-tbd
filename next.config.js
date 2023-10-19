@@ -2,7 +2,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  output: 'standalone',
   async rewrites() {
     return [
       {
